@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Theater Sitting Plan</title>
+    <link href="styles/styles.css", rel="stylesheet", type="text/css">
+  </head>
+  <body>
+  <div id='th'>
+    <div id='stage'><h1>STAGE</h1></div>
+    <div id='audience'>
+        <table>
+            <tbody></tbody>
+        </table>
+    </div>
+  </div>
+  <div id='mgt'>
+      <button id='button'>Arrange Seats
+        <span class='message'>click here to set 30 seats in the theater and enter the height of each seat occupant in the seat</span>
+      </button>
+      <button class='option' id='fill'>Fill Seats
+        <span class='message'>click here to fill seats with random ocupant heights</span>
+      </button>
+      <button id='but'>Check Arrangement
+        <span class='message'>click here to check if all seat occupants can see the stage after arranging and filling seats with occupants</span>
+      </button>
+      <button class='option' id='arr'>Organise Sitting
+        <span class='message'>click here to sort audience sitting order by column so that the most number can view the stage(first fill seats and run check)</span>
+      </button>
+      <button class='option' id='custom'>Choose Number of Seats
+        <span class='message'>click here to set a custom size theater and then click arrange seats to set up the custom theater</span>
+      </button>
+      <input type='text' class='size' placeholder='enter number of rows' id='rows'>
+      <input type='text' class='size' placeholder='enter number of columns' id='cols'>
+      <button id='options'></button>
+  </div>
+      <script src="scripts/main.js"></script>
+  </body>
+</html>

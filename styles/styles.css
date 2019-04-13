@@ -1,0 +1,128 @@
+td input {
+    width: 65%;
+    /* padding: 5% 0%; */
+    background: rgb(5, 173, 5);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border: none;
+    text-align: center;
+    color: white;
+    /* border-bottom-width: 10%;
+    border-spacing: 10%; */
+    line-height: 300%;
+    cursor: pointer;
+    box-shadow: 3px 1px 5px 3px inset, -15px -3px 8px 2px darkgreen inset;
+}
+
+td{
+    /* height: 100%; */
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+#stage{
+    background: greenyellow;
+    color: rgb(102, 80, 18);
+    font-size: 300%;
+    text-align: center;
+    width: 80%;
+    margin: 0% auto;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+#th{
+    background: lightgreen;
+    height: 80%;
+    width: 70%;
+    /* margin-left: 15%; */
+    display: table-cell;
+}
+
+h1{
+    opacity: .2;
+    margin-top: 0%;
+}
+
+#audience{
+    min-height: 80%;
+}
+
+table{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    display: table;
+}
+
+#mgt{
+    margin-top: 0%;
+    display: table-cell;
+    width: 20%;
+    background: lime;
+    text-align: center;
+}
+
+button{
+    background: rgb(1, 51, 1);
+    color: white;
+    border: none;
+    /* padding: 5%; */
+    margin: .5% auto;
+    width: 100%;
+    height: 8%;
+    cursor: pointer;
+    /* position the buttons as tooltip containers */
+    position: relative;
+}
+
+.size{
+    background: lightgreen;
+    /* padding: 5%; */
+    width: 100%;
+    /* padding: 5%; */
+    height: 8%;
+    text-align: center;
+    border: solid 1px darkgreen;
+    display: none;
+}
+
+#options {
+    width: 0;
+    height: 0;
+    border-left: 100px solid lime;
+    border-right: 100px solid lime;
+    border-top: 10px solid darkgreen;
+    background: lime;
+  }
+
+.option {
+    display: none;
+}
+
+:focus{
+    outline: none;
+}
+
+/* style the tip (usage message) */
+button .message {
+visibility: hidden;
+width: 100%;
+background-color: rgb(79, 87, 76);
+text-align: center;
+padding: 2% 0;
+border-radius: 10px;
+position: absolute;
+right: 101%;
+}
+
+/* Show the tooltip (usage message) when hovering over the button */
+button:hover .message {
+visibility: visible;
+}
